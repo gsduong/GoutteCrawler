@@ -3601,5 +3601,54 @@
         "keywords": [
             "scraper"
         ]
+    },
+    {
+        "name": "weidner/goutte",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dweidner/laravel-goutte.git",
+            "reference": "929d4740785957b9abf9f09cdead6bd393894744"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dweidner/laravel-goutte/zipball/929d4740785957b9abf9f09cdead6bd393894744",
+            "reference": "929d4740785957b9abf9f09cdead6bd393894744",
+            "shasum": ""
+        },
+        "require": {
+            "fabpot/goutte": "^3.1",
+            "illuminate/support": "5.*",
+            "php": ">=5.4.0"
+        },
+        "time": "2016-03-30 14:59:10",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.0-dev"
+            }
+        },
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Weidner\\Goutte\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Daniel Weidner",
+                "email": "hallo@danielweidner.de"
+            }
+        ],
+        "description": "Laravel 5 package for Gouette, a simple PHP Web Scraper",
+        "keywords": [
+            "goutte",
+            "laravel"
+        ]
     }
 ]

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fc17cf24bcc51050b8e104cfac40db8a",
-    "content-hash": "75f387e9114dc799eb89789933b78961",
+    "hash": "c84b6ef0a981e61a81f3d7c205573170",
+    "content-hash": "e1600db4d36a57a16978f5e34a63b9b8",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2258,6 +2258,53 @@
                 "environment"
             ],
             "time": "2015-05-30 15:59:26"
+        },
+        {
+            "name": "weidner/goutte",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dweidner/laravel-goutte.git",
+                "reference": "929d4740785957b9abf9f09cdead6bd393894744"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dweidner/laravel-goutte/zipball/929d4740785957b9abf9f09cdead6bd393894744",
+                "reference": "929d4740785957b9abf9f09cdead6bd393894744",
+                "shasum": ""
+            },
+            "require": {
+                "fabpot/goutte": "^3.1",
+                "illuminate/support": "5.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Weidner\\Goutte\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel Weidner",
+                    "email": "hallo@danielweidner.de"
+                }
+            ],
+            "description": "Laravel 5 package for Gouette, a simple PHP Web Scraper",
+            "keywords": [
+                "goutte",
+                "laravel"
+            ],
+            "time": "2016-03-30 14:59:10"
         }
     ],
     "packages-dev": [
@@ -3491,7 +3538,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "weidner/goutte": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
